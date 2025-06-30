@@ -1,0 +1,40 @@
+site_name: Signals and Systems
+theme:
+  name: material
+  palette:
+    - scheme: dracula
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Introduction: index.md
+  - Probability & Random Variables:
+    - Probability Basics: probability/basics.md
+    - Random Variables & Distributions: probability/random_variables.md
+    - Expectation & Moments: probability/expectation_moments.md
+  - Transformations & Convergence:
+    - Functions of Random Variables: transformations/functions.md
+    - Convergence & Limit Theorems: transformations/convergence.md
+  - Stochastic Processes:
+    - Overview & Stationarity: stochastic/overview.md
+    - Poisson & Gaussian Processes: stochastic/poisson_gaussian.md
+    - Second-Order & Representation: stochastic/second_order.md
+  - Markov Models:
+    - Markov Chains & Processes: markov/chains_processes.md
+  - Project:
+    - CPU Scheduler Simulation Using Markov Chains: project/cpu_scheduler.md
+  - Resume: resume.md
