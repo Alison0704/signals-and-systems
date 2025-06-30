@@ -21,19 +21,15 @@ theme:
 
 nav:
   - Home: index.md
-  - Probability & Random Variables:
-    - Probability Basics: probability/basics.md
-    - Random Variables & Distributions: probability/random_variables.md
-    - Expectation & Moments: probability/expectation_moments.md
-  - Transformations & Convergence:
-    - Functions of Random Variables: transformations/functions.md
-    - Convergence & Limit Theorems: transformations/convergence.md
-  - Stochastic Processes:
-    - Overview & Stationarity: stochastic/overview.md
-    - Poisson & Gaussian Processes: stochastic/poisson_gaussian.md
-    - Second-Order & Representation: stochastic/second_order.md
-  - Markov Models:
-    - Markov Chains & Processes: markov/chains_processes.md
-  - Project:
-    - CPU Scheduler Simulation Using Markov Chains: project/cpu_scheduler.md
-  - Resume: resume.md
+  - Prerequisites:
+      - Calculus Review: prerequisites/calculus-review.md
+      - Linear Algebra Summary: prerequisites/linear-algebra-summary.md
+  - Notes:
+      - Random Variables: notes/random-variables.md
+      - Expectation: notes/expectation.md
+      - Convergence: notes/convergence.md
+      - Markov Processes: notes/markov-processes.md
+      - Ergodicity Explained: notes/ergodicity-explained.md
+  - Projects:
+      - Markov Chain Weather Sim: projects/markov-chain-weather.md
+      - Poisson Process Sim: projects/poisson-process.md
