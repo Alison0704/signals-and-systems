@@ -21,7 +21,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Introduction: index.md
   - Probability & Random Variables:
     - Probability Basics: probability/basics.md
     - Random Variables & Distributions: probability/random_variables.md
